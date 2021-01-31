@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: phpunit
-        run: 
+        run: |
           php -v
           docker-compose up -d
           cd app
