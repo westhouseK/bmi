@@ -4,7 +4,7 @@ namespace App;
 
 use PHPUnit\Framework\TestCase;
 
-class HogeTest extends TestCase
+class MainTest extends TestCase
 {
     public function testHoge()
     {
